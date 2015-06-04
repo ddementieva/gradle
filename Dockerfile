@@ -1,7 +1,3 @@
-There is no Gradle integration with Codenvy right now, but we have issue registered on that. 
-
-Currently, you can build your project with Gradle, using custom Dockerfile (you can create it at the Runner panel > Configs tab, Create New button). 
-Your Dockerfile recipe can look like this:
 # Here we are taking codenvy/jdk7 image as a base
 FROM codenvy/jdk7
 
